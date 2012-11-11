@@ -1,4 +1,5 @@
-[
+{
+  "events": [
     {
       "name": "FEEC BR",
       "website": "http://www.feecbr.com.br/pt/",
@@ -19,31 +20,31 @@
       "name": "Front in Sampa",
       "website": "http://www.frontinsampa.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2012/frontinsampa.jpg",
-      "location": "São Paulo, SP",
+      "location": "SÃ£o Paulo, SP",
       "date": "2012-11-03",
       "price": "R$ 199"
     },
     {
-      "name": "Front in Maceió",
+      "name": "Front in MaceiÃ³",
       "website": "http://frontinmaceio.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2012/frontinmaceio.jpg",
-      "location": "Maceió, AL",
+      "location": "MaceiÃ³, AL",
       "date": "2012-10-27",
       "price": "R$ 65"
     },
     {
-      "name": "Conferência W3C",
+      "name": "ConferÃªncia W3C",
       "website": "http://conferenciaweb.w3c.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2012/w3c.jpg",
-      "location": "São Paulo, SP",
+      "location": "SÃ£o Paulo, SP",
       "date": "2012-10-18",
       "price": "R$ 150"
     },
     {
-      "name": "Front in Maringá",
+      "name": "Front in MaringÃ¡",
       "website": "http://frontinmaringa.com.br",
       "thumbnail": "http://braziljs.org/services/events/media/2012/frontinmaringa.jpg",
-      "location": "Maringá, PR",
+      "location": "MaringÃ¡, PR",
       "date": "2012-10-06",
       "price": "R$ 50"
     },
@@ -59,7 +60,7 @@
       "name": "Tableless Conference",
       "website": "http://tableless.com.br/tablelessconf/",
       "thumbnail": "http://braziljs.org/services/events/media/2012/tablelessconf.jpg",
-      "location": "São Paulo, SP",
+      "location": "SÃ£o Paulo, SP",
       "date": "2012-08-24",
       "price": "R$ 150"
     },
@@ -103,4 +104,5 @@
       "date": "2012-04-21",
       "price": "R$ 30"
     }
-]
+  ]
+}
