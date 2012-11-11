@@ -1,5 +1,4 @@
-{
-  "events": [
+[
     {
       "name": "FEEC BR",
       "website": "http://www.feecbr.com.br/pt/",
@@ -104,5 +103,4 @@
       "date": "2012-04-21",
       "price": "R$ 30"
     }
-  ]
-}
+]
