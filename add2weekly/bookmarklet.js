@@ -5,7 +5,7 @@
         var i= document.createElement('iframe');
         c.appendChild(dv);
         i.src= iSrc+"t="+t+"&l="+l.replace(/http:\/\/|https:\/\//i, '');
-        dv.style.position= 'absolute';
+        dv.style.position= 'fixed';
         dv.style.background= 'white';
         dv.style.top= '0px';
         dv.style.left= '0px';
