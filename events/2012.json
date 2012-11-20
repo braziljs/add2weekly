@@ -103,6 +103,14 @@
       "location": "Recife, PE",
       "date": "2012-04-21",
       "price": "R$ 30"
+    },
+    {
+      "name": "BeagaJS",
+      "website": "http://bhjs.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/beagajs.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2012-01-21",
+      "price": "R$ 35"
     }
   ]
 }
