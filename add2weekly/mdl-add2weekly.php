@@ -1,75 +1,105 @@
 <!doctype html>
 <html lang="pt-BR">
     <head>
-        <title>
-            Add to BrazilJS Weekly - module
-        </title>
-        
+        <title>Add to BrazilJS Weekly - module</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        
+
+        <!-- STYLE -->
         <style type="text/css">
-            
             @charset "utf-8";
-            
+
             *{
                 box-sizing: border-box:
                 -moz-box-sizing: border-box:
             }
-            
+
             body, html{
                 background-color: #fcfcfc;
                 margin: 0px;
                 padding: 0px;
                 height: 100%;
                 width: 100%;
-                font-family: 'Open Sans',sans-serif;
+                font: 14px "Helvetica Nue", Arial, Sans-serif;
             }
-            
-            .submitting{
-                color: #999;
-            }
-            .submitting input[type=text], .submitting textarea{
-                opacity: 0.4;
-            }
-            
+
             header{
                 width: 100%;
                 height: 36px;
-                background: #F7F7F7 url(logo-braziljs.png) no-repeat;
-                background-position: 10px center;
-                border-bottom: solid 5px #37ACC2;
+                background: #f6f6f6;
+                border-bottom: 4px solid #37ACC2;
                 margin-bottom: 6px;
-            }
-            
-            #form-content{
-                margin: 4px;
-                height: 205px;
-            }
-            
-            label{
-                min-width: 45px;
-                display: inline-block;
-            }
-            
-            input[type=text]{
-                width: 236px;
-            }
-            
-            textarea{
-                width: 285px;
-                height: 110px;
-            }
-            
-            .buttons-area{
                 text-align: center;
+                padding: 15px 0;
             }
-            
+
+            label, input[type="text"] {
+                display: block;
+                padding: 0 0 3px 0;
+            }
+
+            textarea {
+                height: 75px;
+            }
+
+            input[type="text"], textarea {
+                border-radius: 3px;
+                border: 1px solid #ccc;
+                padding: 15px 8px;
+                background: #FFF;
+                color: #666;
+                font-size: 15px;
+                width: 97%;
+                margin-bottom: 10px;
+            }
+
+            input[type="submit"], input[type="button"] {
+                float: right;
+                display: block;
+                height: 50px;
+                width: 100px;
+                color: #8f5a0a;
+                cursor: pointer;
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 6px;
+                font-size: 15px;
+
+                border-color: #d69e31 #e3a037 #d5982d #e3a037;
+                background-color: #ffb94b;
+
+                background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+                background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+                background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+                background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+                background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+                background-image: linear-gradient(top, #fddb6f, #ffb94b);
+
+                text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+                -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+                -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+            }
+
+            input[type="submit"]:hover, input[type="submit"]:focus, input[type="button"]:hover, input[type="button"]:focus {
+                background-color: #fddb6f;
+
+                background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+                background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+                background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+                background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+                background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+                background-image: linear-gradient(top, #ffb94b, #fddb6f);
+            }
+
+            #form-content {
+                margin: 15px;
+            }
+
             footer{
-                text-align: right;
-                margin-right: 6px;
-                font-size: .8em;
+                text-align: center;
+                font-size: 13px;
             }
-            
+
             #submitBtn{
                 margin-right: 54px;
                 position: absolute;
@@ -85,18 +115,27 @@
                 
                 -moz-transform: translateY(-2px);
             }
-            
-            #formElements{
-                height: 182px;
+
+            footer a {
+                color: #666;
+                text-decoration: none;
+
+            }
+
+            footer a:hover {
+                text-decoration: underline;
             }
         </style>
-        
+
     </head>
     <body>
-        
+
         <iframe id="hIframe" style="display: none;"></iframe>
-        
-        <header></header>
+
+        <header>
+           <img src="http://braziljs.org/wp-content/themes/foundation/img/logo-mini.png" alt="BrazilJS Fundation">
+        </header>
+
         <div id="form-content">
             <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dGxuMG1QOHpCVVlfcDI3TGwxbjR1T2c6MQ&amp;embedded=true&amp;ifq"
                   method="POST"
@@ -118,7 +157,7 @@
                         <textarea name="entry.2.single" rows="8" cols="75" class="ss-q-long" id="entry_2"></textarea>
                     </div>
                 </div>
-                
+
                 <input type="hidden" name="pageNumber" value="0">
                 <input type="hidden" name="backupCache" value="">
 
@@ -128,11 +167,11 @@
                 </div>
             </form>
         </div>
-        
+
         <footer>
             <a href="http://braziljs.org" target="_blank">BrazilJS.org</a>
         </footer>
-        
+
     </body>
     <script>
         var hIframeLoaded= function(){
@@ -140,29 +179,28 @@
             document.getElementById('formElements').innerHTML= "Obrigado por submeter a sua ideia!";
             document.getElementById('submitBtn').disabled= true;
         }
-        
+
         var submitting= function(){
             var f= document.forms['ss-form'];
             document.getElementById('hIframe').onload= hIframeLoaded;
             f.className= "submitting";
             return true;
         }
-        
+
         var closeLayer= function(){
             var el= window.ref.getElementById('brazilJS-add2wkly'),
                 p= el.parentNode;
             p.removeChild(el);
         }
-        
+
         /*document.getElementById('closeBtn').onclick= function(){
             closeLayer();
         };*/
-        
+
         document.getElementById('submitBtn').addEventListener('click', function(){
             submitting();
         }, false);
-        
-        
+
     </script>
     
     <script>
