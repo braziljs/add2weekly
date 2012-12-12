@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="pt-BR">
     <head>
@@ -79,16 +80,36 @@
                 -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
                 box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
             }
+            
+            #submitBtn{
+                position: absolute;
+                right: 14px;
+                bottom: 14px;
+            }
+            
+            input[type="submit"]:disabled{
+                border: solid 1px gray !IMPORTANT;
+                
+                background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bbb));
+                background-image: -webkit-linear-gradient(top, #fff, #bbb);
+                background-image: -moz-linear-gradient(top, #fff, #bbb);
+                background-image: -ms-linear-gradient(top, #fff, #bbb);
+                background-image: -o-linear-gradient(top, #fff, #bbb);
+                background-image: linear-gradient(top, #fff, #bbb);
+                color: #bbb;
+            }
 
-            input[type="submit"]:hover, input[type="submit"]:focus, input[type="button"]:hover, input[type="button"]:focus {
-                background-color: #fddb6f;
+            input[type="submit"]:not(:disabled):hover, input[type="submit"]:not(:disabled):focus, input[type="button"]:hover, input[type="button"]:focus {
+                
+                font-weight: bold;
+                /*background-color: #fddb6f;
 
                 background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
                 background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
                 background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
                 background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
                 background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
-                background-image: linear-gradient(top, #ffb94b, #fddb6f);
+                background-image: linear-gradient(top, #ffb94b, #fddb6f);*/
             }
 
             #form-content {
@@ -96,30 +117,14 @@
             }
 
             footer{
-                text-align: center;
+                text-align: left;
                 font-size: 13px;
-            }
-
-            #submitBtn{
-                margin-right: 54px;
-                position: absolute;
-                left: 110px;
-                bottom: 28px;
-                
-                border: solid 1px gray !IMPORTANT;
-                background:#f0f0f0 !IMPORTANT;
-                color:#444 !IMPORTANT;
-                font-size:11px !IMPORTANT;
-                padding:2px !IMPORTANT;
-                border-radius:4px !IMPORTANT;
-                
-                -moz-transform: translateY(-2px);
+                padding-left: 14px;
             }
 
             footer a {
                 color: #666;
                 text-decoration: none;
-
             }
 
             footer a:hover {
@@ -144,12 +149,12 @@
                 <div id="formElements">
                     <div>
                         <label class="ss-q-title" for="entry_0">Título</label>
-                        <input type="text" name="entry.0.single" readonly="readonly" value="<?php echo $_GET['t'] ?>" class="ss-q-short" id="entry_0">
+                        <input type="text" name="entry.0.single" readonly="readonly" value="AddToWeekly | BrazilJS Foundation - Unidos crescemos" class="ss-q-short" id="entry_0">
                     </div>
 
                     <div>
                         <label class="ss-q-title" for="entry_1">URL</label>
-                        <input type="text" name="entry.1.single" readonly="readonly" value="<?php echo $_GET['l'] ?>" class="ss-q-short" id="entry_1">
+                        <input type="text" name="entry.1.single" readonly="readonly" value="localhost/braziljs/services/add2weekly/" class="ss-q-short" id="entry_1">
                     </div>
 
                     <div>
@@ -162,7 +167,7 @@
                 <input type="hidden" name="backupCache" value="">
 
                 <div class="buttons-area">
-                    <input id="submitBtn" type="submit" name="submit" value="Submit">
+                    <input id="submitBtn" type="submit" name="submit" value="Enviar">
                     <!--<input id="closeBtn" type="button" value="Close">-->
                 </div>
             </form>
@@ -176,14 +181,19 @@
     <script>
         var hIframeLoaded= function(){
             //closeLayer();
+            var btn= document.getElementById('submitBtn');
             document.getElementById('formElements').innerHTML= "Obrigado por submeter a sua ideia!";
-            document.getElementById('submitBtn').disabled= true;
+            btn.value= "Enviado";
         }
 
         var submitting= function(){
-            var f= document.forms['ss-form'];
+            var f= document.forms['ss-form'],
+                btn= document.getElementById('submitBtn');
             document.getElementById('hIframe').onload= hIframeLoaded;
             f.className= "submitting";
+            btn.value= "Enviando...";
+            
+            setTimeout(function(){document.getElementById('submitBtn').setAttribute('disabled', 'disabled');}, 60);
             return true;
         }
 
@@ -193,25 +203,10 @@
             p.removeChild(el);
         }
 
-        /*document.getElementById('closeBtn').onclick= function(){
-            closeLayer();
-        };*/
-
         document.getElementById('submitBtn').addEventListener('click', function(){
             submitting();
+            return true;
         }, false);
 
-    </script>
-    
-    <script>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-33656081-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
     </script>
 </html>
