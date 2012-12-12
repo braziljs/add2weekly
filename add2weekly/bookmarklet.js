@@ -19,7 +19,7 @@
         i.style.border= 'none';
         i.style.height= '100%';
         i.style.width= '100%';
-        dv.innerHTML= "<input id=braziljsa2w-closeBtn type=button value=Close style='position:absolute;left:154px;bottom:29px;' />";
+        dv.innerHTML= "<input id=braziljsa2w-closeBtn type=button value=Close style='position:absolute;left:160px;bottom:30px;border: solid 1px gray !IMPORTANT; background:#f0f0f0 !IMPORTANT;color:#444 !IMPORTANT;font-size:11px !IMPORTANT;padding:2px !IMPORTANT;border-radius:4px !IMPORTANT;' />";
         dv.appendChild(i);
         
         d.getElementById('braziljsa2w-closeBtn').onclick= function(){

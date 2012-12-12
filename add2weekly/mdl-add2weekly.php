@@ -73,8 +73,17 @@
             #submitBtn{
                 margin-right: 54px;
                 position: absolute;
-                left: 94px;
-                bottom: 29px;
+                left: 110px;
+                bottom: 28px;
+                
+                border: solid 1px gray !IMPORTANT;
+                background:#f0f0f0 !IMPORTANT;
+                color:#444 !IMPORTANT;
+                font-size:11px !IMPORTANT;
+                padding:2px !IMPORTANT;
+                border-radius:4px !IMPORTANT;
+                
+                -moz-transform: translateY(-2px);
             }
             
             #formElements{
@@ -154,5 +163,17 @@
         }, false);
         
         
+    </script>
+    
+    <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33656081-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
     </script>
 </html>
