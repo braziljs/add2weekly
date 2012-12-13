@@ -12,6 +12,7 @@
             *{
                 box-sizing: border-box:
                 -moz-box-sizing: border-box:
+                font-family: Lucida;
             }
 
             body, html{
@@ -138,7 +139,7 @@
         <iframe id="hIframe" style="display: none;"></iframe>
 
         <header>
-           <img src="http://braziljs.org/wp-content/themes/foundation/img/logo-mini.png" alt="BrazilJS Fundation">
+           <a href="http://braziljs.org" target="_blank"><img src="http://braziljs.org/wp-content/themes/foundation/img/logo-mini.png" alt="BrazilJS Fundation"></a>
         </header>
 
         <div id="form-content">
@@ -172,10 +173,6 @@
                 </div>
             </form>
         </div>
-
-        <footer>
-            <a href="http://braziljs.org" target="_blank">BrazilJS.org</a>
-        </footer>
 
     </body>
     <script>
