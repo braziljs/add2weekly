@@ -150,12 +150,12 @@
                 <div id="formElements">
                     <div>
                         <label class="ss-q-title" for="entry_0">Título</label>
-                        <input type="text" name="entry.0.single" readonly="readonly" value="AddToWeekly | BrazilJS Foundation - Unidos crescemos" class="ss-q-short" id="entry_0">
+                        <input type="text" name="entry.0.single" readonly="readonly" value="" class="ss-q-short" id="entry_0">
                     </div>
 
                     <div>
                         <label class="ss-q-title" for="entry_1">URL</label>
-                        <input type="text" name="entry.1.single" readonly="readonly" value="localhost/braziljs/services/add2weekly/" class="ss-q-short" id="entry_1">
+                        <input type="text" name="entry.1.single" readonly="readonly" value="" class="ss-q-short" id="entry_1">
                     </div>
 
                     <div>
@@ -204,6 +204,11 @@
             submitting();
             return true;
         }, false);
+
+
+        document.getElementById('entry_0').value= location.search.match(/\?t=(.+)\&/);
+        document.getElementById('entry_1').value= location.search.match(/\?t=.+\&l=(.+)/);
+
 
     </script>
 </html>
