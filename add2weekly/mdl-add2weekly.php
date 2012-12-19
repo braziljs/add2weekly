@@ -206,8 +206,8 @@
         }, false);
 
 
-        document.getElementById('entry_0').value= location.search.match(/\?t=(.+)\&/);
-        document.getElementById('entry_1').value= location.search.match(/\?t=.+\&l=(.+)/);
+        document.getElementById('entry_0').value= location.search.match(/\?t=(.+)\&/)[1];
+        document.getElementById('entry_1').value= location.search.match(/\?t=.+\&l=(.+)/)[1];
 
 
     </script>
