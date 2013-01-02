@@ -75,7 +75,7 @@
         <p>Você sabia que é possível nos enviar sugestões de conteúdo que gostaria de ver na BrazilJS Weekly?
         <p>Agora, disponibilizamos uma ferramenta a mais para lhe auxiliar com isso! Trata-se de um <a href="http://pt.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a>.
         <p style="margin-top: 20px;">Arraste a imagem abaixo para a sua barra de favoritos, ou use o menu do botão direito e a opção "adicionar aos favoritos":<br/>
-        <div style="text-align: center;margin-top: 20px;"><a title="BrazilJS Weekly - Sugestão" alt="BrazilJS Weekly - Sugestão" <?php writeJS(); ?>><img src="http://braziljs.org/services/add2weekly/logo-braziljs.png" title="BrazilJS Weekly - Sugestão" style="height: 60px;" alt="BrazilJS Weekly - Sugestão" /></a></div>
+        <div style="text-align: center;margin-top: 20px;"><a title="BrazilJS - Add2Weekly" alt="BrazilJS - Add2Weekly" <?php writeJS(); ?>><img src="http://braziljs.org/services/add2weekly/logo-braziljs.png" title="BrazilJS - Add2Weekly" style="height: 60px;" alt="BrazilJS - Add2Weekly" /></a></div>
         <p style="margin-top: 20px;">Uma vez em seus favoritos, quanto você encontrar uma página, notícia ou demo que gostaria de ver na weekly do BrazilJS, basta clicar no link em seus favoritos!
 
 
