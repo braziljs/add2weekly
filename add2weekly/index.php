@@ -1,15 +1,15 @@
 <?php
     include('jsmin.php');
-    
+
     function writeJS(){
         echo 'href="javascript: '.preg_replace('/"/', '&quot;', JSMin::minify(file_get_contents('bookmarklet.js'))).'"';
     }
-    
+
 ?><!DOCTYPE HTML>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>AddToWeekly | BrazilJS Foundation - Unidos crescemos</title>
+  <title>Add2Weekly | BrazilJS Foundation - Unidos crescemos</title>
 
    <!-- general meta tags -->
   <meta charset="UTF-8">
@@ -67,23 +67,23 @@
 
   <section class="content">
     <div class="wrapper" id="events">
-      
-        
-        
-        
-        
-        <p>Você já sabe que pode nos enviar sugestões de ítens que gostaria que aparecessem na Wekkly do Braziljs, certo?
-        <p>Agora, disponibilizamos uma ferramenta a mais para lhe auxiliar com isto! Trata-se de um <a href="http://pt.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a>.
+
+
+
+
+
+        <p>Você sabia que é possível nos enviar sugestões de conteúdo que gostaria de ver na BrazilJS Weekly?
+        <p>Agora, disponibilizamos uma ferramenta a mais para lhe auxiliar com isso! Trata-se de um <a href="http://pt.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a>.
         <p style="margin-top: 20px;">Arraste a imagem abaixo para a sua barra de favoritos, ou use o menu do botão direito e a opção "adicionar aos favoritos":<br/>
-        <div style="text-align: center;margin-top: 20px;"><a title="[BrJS]Sugestão Weekly" alt="[BrJS]Sugestão Weekly" <?php writeJS(); ?>><img src="http://braziljs.org/services/add2weekly/logo-braziljs.png" title="[BrJS]Sugestão Weekly" style="height: 60px;" alt="[BrJS]Sugestão Weekly" /></a></div>
+        <div style="text-align: center;margin-top: 20px;"><a title="BrazilJS Weekly - Sugestão" alt="BrazilJS Weekly - Sugestão" <?php writeJS(); ?>><img src="http://braziljs.org/services/add2weekly/logo-braziljs.png" title="BrazilJS Weekly - Sugestão" style="height: 60px;" alt="BrazilJS Weekly - Sugestão" /></a></div>
         <p style="margin-top: 20px;">Uma vez em seus favoritos, quanto você encontrar uma página, notícia ou demo que gostaria de ver na weekly do BrazilJS, basta clicar no link em seus favoritos!
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
     </div>
   </section>
 
