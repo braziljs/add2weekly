@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "BeagaJS",
+      "website": "http://www.beagajs.com.br/2013/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/beagajs.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-03-02",
+      "price": "R$ 45"
+    }
+  ]
+}
