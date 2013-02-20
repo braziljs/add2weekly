@@ -24,5 +24,14 @@
       "date": "2014-05-13",
       "price": "R$ 2.430"
     }
+  
+	{
+      "name": "BahiaJS",
+      "website": "http://softwarelivre.org/flisol-ssa/bahiajs-blog/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/bahiajs.jpg",
+      "location": "Salvador, BA",
+      "date": "2013-04-27",
+      "price": "R$ 0.00"
+    }
   ]
 }
