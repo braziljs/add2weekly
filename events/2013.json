@@ -11,10 +11,18 @@
     {
       "name": "RioJS",
       "website": "http://www.riojs.org/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/rio.js.jpg",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/riojs.jpg",
       "location": "Rio de Janeiro, RJ",
       "date": "2013-03-09",
       "price": "R$ 30"
+    },
+    {
+      "name": "SampaJS",
+      "website": "http://bonoevento.com/sampajs",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-03-09",
+      "price": "R$ 50"
     },
     {
       "name": "www2013",
