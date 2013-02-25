@@ -49,6 +49,14 @@
       "price": "R$ 250"
     },
     {
+      "name": "FEEC Brazil",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Fortaleza, CE",
+      "date": "2013-05-25",
+      "price": "-"
+    },
+    {
       "name": "BrazilJS Conf",
       "website": "http://braziljs.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
