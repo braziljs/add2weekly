@@ -57,6 +57,14 @@
       "price": "-"
     },
     {
+      "name": "RSJS",
+      "website": "http://rsjs.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/rsjs.png",
+      "location": "Porto Alegre, RS",
+      "date": "2013-03-23",
+      "price": "-"
+    },
+    {
       "name": "BrazilJS Conf",
       "website": "http://braziljs.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
