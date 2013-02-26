@@ -63,6 +63,14 @@
       "location": "Fortaleza, CE",
       "date": "2013-05-25",
       "price": "R$ ??"
+    }
+    {
+      "name": "FEEC Brazil",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Salvador, BA",
+      "date": "2013-08-24",
+      "price": "R$ ??"
     },
     {
       "name": "BrazilJS Conf",
@@ -70,14 +78,6 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
       "location": "Porto Alegre, RS",
       "date": "2013-08-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "FEEC Brazil",
-      "website": "http://www.feecbr.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
-      "location": "Salvador, BA",
-      "date": "2013-08-24",
       "price": "R$ ??"
     }
   ]
