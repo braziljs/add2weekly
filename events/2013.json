@@ -23,14 +23,14 @@
       "location": "São Paulo, SP",
       "date": "2013-03-09",
       "price": "R$ 50"
-    },    
+    },
     {
       "name": "RSJS",
       "website": "http://rsjs.org/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/rsjs.png",
       "location": "Porto Alegre, RS",
       "date": "2013-03-23",
-      "price": "-"
+      "price": "R$ ??"
     },
     {
       "name": "BahiaJS",
@@ -62,7 +62,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Fortaleza, CE",
       "date": "2013-05-25",
-      "price": "-"
+      "price": "R$ ??"
     },
     {
       "name": "BrazilJS Conf",
@@ -70,7 +70,15 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
       "location": "Porto Alegre, RS",
       "date": "2013-08-**",
-      "price": "-"
-    }
+      "price": "R$ ??"
+    },
+    {
+      "name": "FEEC Brazil",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Salvador, BA",
+      "date": "2013-08-24",
+      "price": "R$ ??"
+    },
   ]
 }
