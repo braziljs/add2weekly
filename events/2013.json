@@ -1,5 +1,4 @@
-{
-  "events": [
+[
     {
       "name": "BeagaJS",
       "website": "http://www.beagajs.com.br/2013/",
@@ -80,5 +79,5 @@
       "date": "2013-08-??",
       "price": "R$ ??"
     }
-  ]
-}
+
+]
