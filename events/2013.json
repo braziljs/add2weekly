@@ -1,4 +1,5 @@
- [
+{
+  "events": [
     {
       "name": "BeagaJS",
       "website": "http://www.beagajs.com.br/2013/",
@@ -88,3 +89,4 @@
       "price": "R$ ??"
     }
   ]
+}
