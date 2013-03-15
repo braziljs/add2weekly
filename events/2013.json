@@ -73,19 +73,19 @@
       "price": "R$ ??"
     },
     {
+      "name": "BrazilJS Conf",
+      "website": "http://braziljs.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
+      "location": "Porto Alegre, RS",
+      "date": "2013-08-22",
+      "price": "R$ 120"
+    },
+    {
       "name": "FEEC Brazil",
       "website": "http://www.feecbr.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Salvador, BA",
       "date": "2013-08-24",
-      "price": "R$ ??"
-    },
-    {
-      "name": "BrazilJS Conf",
-      "website": "http://braziljs.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
-      "location": "Porto Alegre, RS",
-      "date": "2013-08-??",
       "price": "R$ ??"
     }
   ]
