@@ -87,6 +87,14 @@
       "location": "Salvador, BA",
       "date": "2013-08-24",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front In Teresina",
+      "website": "http://rafaelfranca.net/fit",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/fit.png",
+      "location": "Teresina, PI",
+      "date": "2013-??-??",
+      "price": "R$ ??"
     }
   ]
 }
