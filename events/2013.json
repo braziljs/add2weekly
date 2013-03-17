@@ -73,6 +73,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "Front in Fortaleza",
+      "website": "http://jugoncalves.github.com/fif2013/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2013-07-20",
+      "price": "R$ ??"
+    },
+    {
       "name": "BrazilJS Conf",
       "website": "http://braziljs.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
@@ -86,14 +94,6 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Salvador, BA",
       "date": "2013-08-24",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Fortaleza",
-      "website": "http://jugoncalves.github.com/fif2013/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
-      "location": "Fortaleza, CE",
-      "date": "2013-07-20",
       "price": "R$ ??"
     },
     {
