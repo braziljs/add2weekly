@@ -111,6 +111,14 @@
       "location": "Teresina, PI",
       "date": "2013-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front in Floripa",
+      "website": "http://www.frontinfloripa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinfloripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2013-??-??",
+      "price": "R$ ??"
     }
   ]
 }
