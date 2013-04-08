@@ -119,6 +119,14 @@
       "location": "Florianópolis, SC",
       "date": "2013-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinfloripa.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-09-14",
+      "price": "R$ 150"
     }
   ]
 }
