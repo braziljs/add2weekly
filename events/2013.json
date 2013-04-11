@@ -127,6 +127,14 @@
       "location": "Florianópolis, SC",
       "date": "2013-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front in Bahia",
+      "website": "http://www.frontinbahia.com.br/",
+      "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
+      "location": "Salvador, BA",
+      "date": "2013-??-??",
+      "price": "R$ ??"
     }
   ]
 }
