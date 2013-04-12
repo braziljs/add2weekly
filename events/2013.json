@@ -41,20 +41,20 @@
       "price": "Gratuito"
     },
     {
-      "name": "www2013",
-      "website": "http://www2013.org/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/www2013.jpg",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2013-05-13",
-      "price": "R$ 2.430"
-    },
-    {
       "name": "OlhóSEO",
       "website": "http://www.olhoseo.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/olhoseo.jpg",
       "location": "Florianópolis, SC",
       "date": "2013-05-03",
       "price": "R$ ??"
+    },
+    {
+      "name": "www2013",
+      "website": "http://www2013.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/www2013.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-05-13",
+      "price": "R$ 2.430"
     },
     {
       "name": "Tableless Conf",
