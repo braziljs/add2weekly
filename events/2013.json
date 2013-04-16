@@ -81,6 +81,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "Front in BH",
+      "website": "http://frontinbh.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinbh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-08-03",
+      "price": "R$ 60"
+    },
+    {
       "name": "BrazilJS Conf",
       "website": "http://braziljs.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
