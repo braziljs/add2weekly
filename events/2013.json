@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Front in Rio 2013",
+      "website": "http://www.frontinrio.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinrio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-06-15",
+      "price": "R$ 50"
+    },
+    {
       "name": "BeagaJS",
       "website": "http://www.beagajs.com.br/2013/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/beagajs.jpg",
