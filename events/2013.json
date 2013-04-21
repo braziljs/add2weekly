@@ -18,7 +18,7 @@
     },
     {
       "name": "SampaJS",
-      "website": "http://bonoevento.com/sampajs",
+      "website": "http://sampajs.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
       "location": "São Paulo, SP",
       "date": "2013-03-09",
@@ -71,6 +71,22 @@
       "location": "Fortaleza, CE",
       "date": "2013-05-25",
       "price": "R$ ??"
+    },
+    {
+      "name": "SampaJS",
+      "website": "http://bonoevento.com/sampajsv31",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-06-08",
+      "price": "R$ 50"
+    },
+    {
+      "name": "Front in Rio 2013",
+      "website": "http://www.frontinrio.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinrio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-06-15",
+      "price": "R$ 50"
     },
     {
       "name": "Front in Fortaleza",
@@ -135,14 +151,6 @@
       "location": "Salvador, BA",
       "date": "2013-??-??",
       "price": "R$ ??"
-    },
-    {
-      "name": "Front in Rio 2013",
-      "website": "http://www.frontinrio.com.br",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinrio.jpg",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2013-06-15",
-      "price": "R$ 50"
     }
   ]
 }
