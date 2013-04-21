@@ -18,7 +18,7 @@
     },
     {
       "name": "SampaJS",
-      "website": "http://bonoevento.com/sampajs",
+      "website": "http://sampajs.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
       "location": "São Paulo, SP",
       "date": "2013-03-09",
@@ -41,6 +41,14 @@
       "price": "Gratuito"
     },
     {
+      "name": "OlhóSEO",
+      "website": "http://www.olhoseo.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/olhoseo.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2013-05-03",
+      "price": "R$ 380"
+    },
+    {
       "name": "www2013",
       "website": "http://www2013.org/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/www2013.jpg",
@@ -49,20 +57,12 @@
       "price": "R$ 2.430"
     },
     {
-      "name": "OlhóSEO",
-      "website": "http://www.olhoseo.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/olhoseo.jpg",
-      "location": "Florianópolis, SC",
-      "date": "2013-05-03",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Tableless Conf",
+      "name": "2º Tableless Conf",
       "website": "http://tableless.com.br/tablelessconf/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/tablelessconf.jpg",
       "location": "São Paulo, SP",
       "date": "2013-05-16",
-      "price": "R$ 250"
+      "price": "R$ 213"
     },
     {
       "name": "FEEC Brazil",
@@ -71,6 +71,22 @@
       "location": "Fortaleza, CE",
       "date": "2013-05-25",
       "price": "R$ ??"
+    },
+    {
+      "name": "SampaJS",
+      "website": "http://bonoevento.com/sampajsv31",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-06-08",
+      "price": "R$ 50"
+    },
+    {
+      "name": "Front in Rio 2013",
+      "website": "http://www.frontinrio.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinrio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-06-15",
+      "price": "R$ 50"
     },
     {
       "name": "Front in Fortaleza",
@@ -86,7 +102,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
       "location": "Porto Alegre, RS",
       "date": "2013-08-22",
-      "price": "R$ 120"
+      "price": "R$ 170"
     },
     {
       "name": "FEEC Brazil",
@@ -98,11 +114,19 @@
     },
     {
       "name": "Front in Aracaju",
-      "website": "http://www.facebook.com/pages/Frontinaracaju/584760704868265",
+      "website": "http://www.frontinaracaju.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinaracaju.jpg",
       "location": "Aracaju, SE",
       "date": "2013-08-31",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-09-14",
+      "price": "R$ 150"
     },
     {
       "name": "Front in Teresina",
@@ -117,6 +141,14 @@
       "website": "http://www.frontinfloripa.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinfloripa.jpg",
       "location": "Florianópolis, SC",
+      "date": "2013-??-??",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Bahia",
+      "website": "http://www.frontinbahia.com.br/",
+      "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
+      "location": "Salvador, BA",
       "date": "2013-??-??",
       "price": "R$ ??"
     }
