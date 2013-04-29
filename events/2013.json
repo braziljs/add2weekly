@@ -97,6 +97,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "Front in Bahia",
+      "website": "http://www.frontinbahia.com.br/",
+      "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
+      "location": "Salvador, BA",
+      "date": "2013-07-27",
+      "price": "R$ ??"
+    },
+    {
       "name": "Front in BH",
       "website": "http://frontinbh.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinbh.jpg",
@@ -150,14 +158,6 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinfloripa.jpg",
       "location": "Florianópolis, SC",
       "date": "2013-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Bahia",
-      "website": "http://www.frontinbahia.com.br/",
-      "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
-      "location": "Salvador, BA",
-      "date": "2013-07-27",
       "price": "R$ ??"
     }
   ]
