@@ -89,6 +89,14 @@
       "price": "R$ 50"
     },
     {
+      "name": "JSConf BR",
+      "website": "http://2013.jsconfbr.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/jsconfbr.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2013-06-22",
+      "price": "R$ 300"
+    },
+    {
       "name": "Front in Fortaleza",
       "website": "http://jugoncalves.github.com/fif2013/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
