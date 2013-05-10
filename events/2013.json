@@ -167,6 +167,14 @@
       "location": "Florianópolis, SC",
       "date": "2013-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "The Developer's Conference Florianópolis",
+      "website": "http://www.thedevelopersconference.com.br/tdc/2013/index.html#florianopolis",
+      "thumbnail": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn1/163299_478011988925851_367011638_n.png",
+      "location": "Florianópolis, SC",
+      "date": "2013-05-24",
+      "price": "R$ 90"
     }
   ]
 }
