@@ -65,14 +65,6 @@
       "price": "R$ 213"
     },
     {
-      "name": "FEEC Brazil",
-      "website": "http://www.feecbr.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
-      "location": "Fortaleza, CE",
-      "date": "2013-05-25",
-      "price": "R$ ??"
-    },
-    {
       "name": "SampaJS",
       "website": "http://bonoevento.com/sampajsv31",
       "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
@@ -129,14 +121,6 @@
       "price": "R$ 170"
     },
     {
-      "name": "FEEC Brazil",
-      "website": "http://www.feecbr.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
-      "location": "Salvador, BA",
-      "date": "2013-08-24",
-      "price": "R$ ??"
-    },
-    {
       "name": "Front in Aracaju",
       "website": "http://www.frontinaracaju.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinaracaju.jpg",
@@ -151,6 +135,30 @@
       "location": "São Paulo, SP",
       "date": "2013-09-14",
       "price": "R$ 150"
+    },
+    {
+      "name": "FEEC Brazil",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Fortaleza, CE",
+      "date": "2013-10-19",
+      "price": "R$ ??"
+    },
+    {
+      "name": "FEEC Brazil",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Salvador, BA",
+      "date": "2013-10-26",
+      "price": "R$ ??"
+    },
+    {
+      "name": "FEEC Brazil",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Recife, PE",
+      "date": "2013-11-30",
+      "price": "R$ ??"
     },
     {
       "name": "Front in Teresina",
