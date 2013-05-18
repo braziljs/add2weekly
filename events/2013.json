@@ -97,6 +97,14 @@
       "price": "R$ 300"
     },
     {
+      "name": "Front in Fortaleza",
+      "website": "http://jugoncalves.github.com/fif2013/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2013-07-20",
+      "price": "R$ ??"
+    },
+    {
       "name": "Front in Bahia",
       "website": "http://www.frontinbahia.com.br/",
       "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
@@ -125,7 +133,7 @@
       "website": "http://www.feecbr.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Salvador, BA",
-      "date": "2013-10-26",
+      "date": "2013-08-24",
       "price": "R$ ??"
     },
     {
@@ -143,14 +151,6 @@
       "location": "São Paulo, SP",
       "date": "2013-09-14",
       "price": "R$ 150"
-    },
-    {
-      "name": "Front in Fortaleza",
-      "website": "http://jugoncalves.github.com/fif2013/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
-      "location": "Fortaleza, CE",
-      "date": "2013-10-19",
-      "price": "R$ ??"
     },
     {
       "name": "Front in Teresina",
