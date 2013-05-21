@@ -183,6 +183,14 @@
       "location": "Florianópolis, SC",
       "date": "2013-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "WEB Day",
+      "website": "http://www.webday.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/webday.png",
+      "location": "São Paulo, SC",
+      "date": "2013-07-20",
+      "price": "R$ 40"
     }
   ]
 }
