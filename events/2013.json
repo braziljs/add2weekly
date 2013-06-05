@@ -134,7 +134,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinaracaju.jpg",
       "location": "Aracaju, SE",
       "date": "2013-08-31",
-      "price": "R$ ??"
+      "price": "R$ 80"
     },
     {
       "name": "Front in Sampa",
@@ -142,7 +142,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
       "location": "São Paulo, SP",
       "date": "2013-09-14",
-      "price": "R$ 150"
+      "price": "R$ 200"
     },
     {
       "name": "FEEC Brazil",
