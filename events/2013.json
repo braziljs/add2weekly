@@ -41,14 +41,6 @@
       "price": "Gratuito"
     },
     {
-      "name": "OlhóSEO",
-      "website": "http://www.olhoseo.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/olhoseo.jpg",
-      "location": "Florianópolis, SC",
-      "date": "2013-05-03",
-      "price": "R$ 380"
-    },
-    {
       "name": "www2013",
       "website": "http://www2013.org/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/www2013.jpg",
@@ -87,6 +79,14 @@
       "location": "Rio de Janeiro, RJ",
       "date": "2013-06-15",
       "price": "R$ 50"
+    },
+    {
+      "name": "OlhóSEO",
+      "website": "http://www.olhoseo.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/olhoseo.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-06-18",
+      "price": "R$ 340"
     },
     {
       "name": "JSConf BR",
