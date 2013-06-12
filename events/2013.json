@@ -169,6 +169,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "PernambucoJS",
+      "website": "http://www.pernambucojs.com/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/pernambucojs.jpg",
+      "location": "Recife, PE",
+      "date": "2013-??-??",
+      "price": "R$ ??"
+    },
+    {
       "name": "Front in Teresina",
       "website": "http://rafaelfranca.net/fit",
       "thumbnail": "http://braziljs.org/services/events/media/2013/fit.jpg",
