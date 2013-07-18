@@ -97,12 +97,12 @@
       "price": "R$ 300"
     },
     {
-      "name": "Front in Fortaleza",
-      "website": "http://jugoncalves.github.com/fif2013/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
-      "location": "Fortaleza, CE",
+      "name": "WEB Day",
+      "website": "http://www.webday.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/webday.png",
+      "location": "São Paulo, SP",
       "date": "2013-07-20",
-      "price": "R$ ??"
+      "price": "R$ 40"
     },
     {
       "name": "WEB Day",
@@ -118,7 +118,7 @@
       "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
       "location": "Salvador, BA",
       "date": "2013-07-27",
-      "price": "R$ ??"
+      "price": "R$ 80"
     },
     {
       "name": "Front in BH",
@@ -174,6 +174,14 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Recife, PE",
       "date": "2013-11-30",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://f.ront.in/fortaleza",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2013-11-??",
       "price": "R$ ??"
     },
     {
