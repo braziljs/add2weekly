@@ -97,14 +97,6 @@
       "price": "R$ 300"
     },
     {
-      "name": "Front in Fortaleza",
-      "website": "http://f.ront.in/fortaleza",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
-      "location": "Fortaleza, CE",
-      "date": "2013-11-??",
-      "price": "R$ ??"
-    },
-    {
       "name": "Front in Bahia",
       "website": "http://www.frontinbahia.com.br/",
       "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
@@ -166,6 +158,14 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Recife, PE",
       "date": "2013-11-30",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://f.ront.in/fortaleza",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2013-11-??",
       "price": "R$ ??"
     },
     {
