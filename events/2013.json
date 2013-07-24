@@ -145,6 +145,14 @@
       "price": "R$ 200"
     },
     {
+      "name": "Mobile Brazil Conferece",
+      "website": "http://mobilebrazilconference.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/mobilebrazilconference.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2013-09-14",
+      "price": "R$ 60"
+    },
+    {
       "name": "FEEC Brazil",
       "website": "http://www.feecbr.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
