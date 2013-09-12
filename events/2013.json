@@ -169,6 +169,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "Web.br 2013",
+      "website": "http://conferenciaweb.w3c.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/webbr.png",
+      "location": "São Paulo, SP",
+      "date": "2013-11-18",
+      "price": "R$ 160"
+    },
+    {
       "name": "FEEC Brazil",
       "website": "http://www.feecbr.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
