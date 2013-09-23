@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Dev in Company BH",
+      "website": "http://devincompanybh.github.io/setembro-2013/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/devincompanybh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-09-28",
+      "price": "R$ 30"
+    },
+    {
       "name": "BeagaJS",
       "website": "http://www.beagajs.com.br/2013/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/beagajs.jpg",
