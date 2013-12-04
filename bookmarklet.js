@@ -1,5 +1,4 @@
 (function(d){
-
     var iSrc= 'http://braziljs.org/services/add2weekly/mdl-add2weekly.php?',
     create= function(t, l, c, dv){
         var i= d.createElement('iframe');
