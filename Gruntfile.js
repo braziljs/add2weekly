@@ -44,7 +44,7 @@ module.exports = function(grunt) {
     
     var jsToInsert= (""+fs.readFileSync(this.data.content)).replace(/"/g, '&quot;');
     var template= fs.readFileSync(this.data.input, 'utf8');
-    //jsToInsert= jsToInsert;
+    jsToInsert= unescape(jsToInsert);
     template= template.replace(this.data.token, jsToInsert);
     fs.writeFileSync(this.data.output, template , 'utf8');
   });
