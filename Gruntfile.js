@@ -42,8 +42,9 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerMultiTask('addLink', 'Adds the minified bookmarklet js to the html.', function() {
     
-    var jsToInsert= fs.readFileSync(this.data.content);
+    var jsToInsert= (""+fs.readFileSync(this.data.content)).replace(/"/g, '&quot;');
     var template= fs.readFileSync(this.data.input, 'utf8');
+    //jsToInsert= jsToInsert;
     template= template.replace(this.data.token, jsToInsert);
     fs.writeFileSync(this.data.output, template , 'utf8');
   });
