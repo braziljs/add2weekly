@@ -1,6 +1,10 @@
 # add2weekly
 
 Adicionando este bookmarklet aos seus favoritos, você poderá enviar sugestões
-para a weekly da BrazilJS muito facilmente!
+para a BrazilJS Weekly muito facilmente!
 
-> **Product Owner:** [Felipe Moura](https://github.com/felipenmoura)
+> **Mantenedor:** [Felipe Moura](https://github.com/felipenmoura)
+
+## Licença
+
+[MIT License](http://braziljs.mit-license.org/) © BrazilJS Foundation
