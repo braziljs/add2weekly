@@ -1,8 +1,9 @@
 (function(d){
-    var iSrc= 'http://braziljs.github.io/add2weekly/mdl-add2weekly.html?',
+    var iSrc= '//braziljs.github.io/add2weekly/mdl-add2weekly.html?',
     create= function(t, l, c, dv){
         var i= d.createElement('iframe');
         c.appendChild(dv);
+        iSrc = document.location.protocol + iSrc;
         i.src= iSrc+"t="+t+"&l="+l.replace(/http:\/\/|https:\/\//i, '');
         dv.style.position= 'fixed';
         dv.style.background= 'white';
