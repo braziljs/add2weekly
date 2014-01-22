@@ -1,5 +1,5 @@
 (function(d){
-    var iSrc= '//gartz.github.io/add2weekly/mdl-add2weekly.html?',
+    var iSrc= '//braziljs.github.io/add2weekly/mdl-add2weekly.html?',
     create= function(t, l, c, dv){
         var i= d.createElement('iframe');
         c.appendChild(dv);
