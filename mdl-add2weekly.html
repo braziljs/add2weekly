@@ -80,16 +80,16 @@
                 -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
                 box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
             }
-            
+
             #submitBtn{
                 position: absolute;
                 right: 14px;
                 bottom: 14px;
             }
-            
+
             input[type="submit"]:disabled{
                 border: solid 1px gray !IMPORTANT;
-                
+
                 background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bbb));
                 background-image: -webkit-linear-gradient(top, #fff, #bbb);
                 background-image: -moz-linear-gradient(top, #fff, #bbb);
@@ -100,7 +100,7 @@
             }
 
             input[type="submit"]:not(:disabled):hover, input[type="submit"]:not(:disabled):focus, input[type="button"]:hover, input[type="button"]:focus {
-                
+
                 font-weight: bold;
                 /*background-color: #fddb6f;
 
@@ -188,7 +188,7 @@
             document.getElementById('hIframe').onload= hIframeLoaded;
             f.className= "submitting";
             btn.value= "Enviando...";
-            
+
             setTimeout(function(){document.getElementById('submitBtn').setAttribute('disabled', 'disabled');}, 60);
             return true;
         };
