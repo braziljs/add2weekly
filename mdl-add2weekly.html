@@ -148,18 +148,18 @@
                   target="hIframe">
                 <div id="formElements">
                     <div>
-                        <label class="ss-q-title" for="entry_1">Título</label>
+                        <label class="ss-q-title" for="entry_0">Título</label>
+                        <input type="text" name="entry.0.single" readonly="readonly" value="" class="ss-q-short" id="entry_0">
+                    </div>
+
+                    <div>
+                        <label class="ss-q-title" for="entry_1">URL</label>
                         <input type="text" name="entry.1.single" readonly="readonly" value="" class="ss-q-short" id="entry_1">
                     </div>
 
                     <div>
-                        <label class="ss-q-title" for="entry_2">URL</label>
-                        <input type="text" name="entry.2.single" readonly="readonly" value="" class="ss-q-short" id="entry_2">
-                    </div>
-
-                    <div>
-                        <label class="ss-q-title" for="entry_3">Alguma informação extra?</label>
-                        <textarea name="entry.3.single" rows="8" cols="75" class="ss-q-long" id="entry_3"></textarea>
+                        <label class="ss-q-title" for="entry_2">Alguma informação extra?</label>
+                        <textarea name="entry.2.single" rows="8" cols="75" class="ss-q-long" id="entry_2"></textarea>
                     </div>
                 </div>
 
@@ -205,8 +205,8 @@
         }, false);
 
 
-        document.getElementById('entry_1').value= unescape(location.search.match(/\?t=(.+)\&/)[1]);
-        document.getElementById('entry_2').value= location.search.match(/\?t=.+\&l=(.+)/)[1];
+        document.getElementById('entry_0').value= unescape(location.search.match(/\?t=(.+)\&/)[1]);
+        document.getElementById('entry_1').value= location.search.match(/\?t=.+\&l=(.+)/)[1];
 
 
     </script>
