@@ -1,8 +1,7 @@
 # add2weekly
 
-___ATENÇÃO___: 
-Este projeto foi descontinuado.  
-A BrazilJS Weekly segue um novo modelo de publicação, veja mais em: https://github.com/braziljs/weekly
+___Atenção:___
+Este projeto foi descontinuado. Para enviar links para a BrazilJS Weekly acesse: https://github.com/braziljs/weekly/issues e procure a issue semanal ativa da próxima campanha.
 
 Adicionando este bookmarklet aos seus favoritos, você poderá enviar sugestões
 para a BrazilJS Weekly muito facilmente!
